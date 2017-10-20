@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    margin: 0 !important;
+    padding: 0.2em 0;
+    font-weight: 300 !important;
+    letter-spacing: -3px;
+}
+
+h6 {
+    font-size: 16px !important;
+    margin-top: 2em !important;
+    color: #757575;
+}
+
+.col {
+    border-right: 1px solid #BDBDBD;
+    padding: 0 !important;
+    font-size: 18px !important;
+    height: 360px;
+}
+
+.no-work {
+    background-image: url(../diagonal-noise.png);
+    background-position-y: 55px;
+    height: 350px;
+}
+
+.col:last-of-type {
+    border-right: 0;
+}
+
+.row {
+    margin: auto !important;
+    overflow: hidden;
+}
+
+.day {
+    margin: auto;
+    width:  -moz-fit-content;
+    display: block;
+    font-family: Roboto Condensed;
+    color: #1976D2;
+}
+
+.date, .date-sm {
+    padding-left: 0.4em;
+    display: block;
+    font-family: Roboto Condensed;
+}
+
+.date, .date-sm {
+    border-bottom: 1px solid #aeaeae;
+    text-transform: uppercase;
+}
+
+.content {
+    padding: 2em 0;
+    width: 95%;
+    margin: auto;
+}
+
+.checklist {
+    margin-left: 0.6em;
+    position: relative;
+    padding: 1em 0 0 0;
+    position: relative;
+}
+
+.checkarea {
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.box {
+    border: 1px solid #BDBDBD;
+    width: 26px;
+    height: 26px;
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
